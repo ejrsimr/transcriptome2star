@@ -2,7 +2,7 @@
 
 Convert a FASTA file of a transcriptome into a FASTA and GTF suitable for a STAR database. Particularly useful for single-cell analysis when no genome assembly is available.  
 
-A very simple, very short script that takes a FASTA file as input and outputs a new FASTA file with a ".ref" suffix added to seach sequence name and GTF with a single exon gene covering the entire length of the sequences.  This output is suitable for creating a STAR database as required by many single cell analysis pipelines.  
+A very simple, very short script that takes a FASTA file as input and outputs a new FASTA file with a ".ref" suffix added to seach sequence name and GTF with a single exon transcript covering the entire length of each sequence, retaining the original transcript name. This output is suitable for creating a STAR database as required by many single cell and RNAseq analysis pipelines.  
 
 Originally written for Benham-Pyle 2021, PMID: 34475533  
 
