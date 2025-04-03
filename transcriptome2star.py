@@ -20,7 +20,6 @@ def main():
     fasta_out = sys.argv[3]
     
     # check if files exist
-    # check if input file exists
     try:
         with open(fasta_in, 'r') as f:
             pass
