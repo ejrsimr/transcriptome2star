@@ -1,4 +1,4 @@
-#!/usr/bin/env python:w!
+#!/usr/bin/env python
 # transcriptome2star.py
 # author: Eric Ross (ejr@stowers.org)
 # Developed in order to use transcriptomes as single cell references in collaboration with Cynthia Chen
